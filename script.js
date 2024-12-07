@@ -111,9 +111,16 @@ function drawPressureChart(labels, pressures) {
 // 都市名を取得する関数（表示用）
 function getCityName(city) {
     const cityNames = {
-        "Kanazawa,JP": "金沢",
+        "Ishikawa,JP": "石川",
         "Tokyo,JP": "東京",
-        "Nagoya,JP": "名古屋"
+        "Aichi,JP": "愛知",
+        "Osaka,JP": "大阪",
+        "Okinawa,JP": "沖縄",
+        "Hokkaido,JP": "北海道",
+        "Miyagi,JP": "宮城県",
+        "Hiroshima,JP": "広島県",
+        "Fukuoka,JP": "福岡県",
+        "Ehime,JP": "愛媛県"
     };
     return cityNames[city] || city;
 }
